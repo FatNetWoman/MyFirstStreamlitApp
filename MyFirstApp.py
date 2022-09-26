@@ -15,7 +15,7 @@ def draw_hist(data):
     return fig
     
 def draw_heatmap(data):    
-    fig = px.density_heatmap(data, x="age", y="G3", labels={'G3':'Final Grade'}, text_auto=True)
+    fig = px.density_heatmap(data, x="age", y="G3", labels={'G3':'Final Grade'})
     return fig
 
 def draw_scatter(data):
